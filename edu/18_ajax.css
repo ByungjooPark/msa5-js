@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.test {
+  border: 2px solid #000;
+  width: 50px;
+  height: 50px;
+  background-color: #eb5d5d;
+}
+
+.containr {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  padding: 10px;
+  /* background-color: #eb5d5d; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-img {
+  background-image: url("../img/choco.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* aspect-ratio: 4/3; */
+  padding-top: 66%;
+}
